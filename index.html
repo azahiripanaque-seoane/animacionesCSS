@@ -1,167 +1,104 @@
 <html>
 <head>
-<title>CSS1 - INTRODUCCION</title>
-<style type="text/css">
- *{
-    margin: 0px ;
-    padding: 0px;
-    float: left;
- }
+    <title>SAM ALTMAN </title>
+    <style type="text/css">
+        *{
+            margin:3%;
+            padding:0;
+            font-family: "century gothic";
+            text-align: center;
+            margin-top: -1px;
+        }       
+        img {
+          border-radius: 0%;
+          width: 300px;
+          height: 300px;
 
-#cuadrito1{
-    background-color: white;
-    border:1px solid black;
-     
-}
-#cuadrito2{
-    background-color: black;
-    border:1px solid black;
- 
-}
+        }            
+        body{
+            background-color: black;
+            padding: 5%;
+        }
+        h1{
+          color:black;
+          font-size: 40px ;
+          animation-name: texto;
+          animation-delay: 2s;
+          animation-duration: 3s;
+          animation-iteration-count: 1; 
+          animation-fill-mode: forwards;
+        }
+        @keyframes texto{
+            from{
+             color: rgb(255, 255, 255) ;
+             font-size: 40px;
+             
+    
+            }
+            to{
+             color: rgb(255, 215, 0);
+             font-size: 60px;
+            }
+        }
+        p{
+          color:rgba(0, 0, 0, 0);
+          font-family:"century gothic";
+          animation-name: parrafo;
+          animation-duration: 2s;
+          animation-iteration-count: 1;
+          animation-delay: 3s;
+          animation-fill-mode:forwards;
+          margin-top: 40px;
 
-#cuadrito1, #cuadrito2 {
-    height: 90px;
-    width: 100px;
-    display: inline-block;
 
-}
+        }
+        @keyframes parrafo{
+            from{
+                margin-left: 10%;
+                whidth: 300%;
+                color:rgba(255, 255, 255, 1);
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+                color: rgba(255, 255, 255, 1); 
 
-#contenedor1{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
+            }
+        }
+        img {
 
-}
-#contenedor2{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
+            opacity: 0;
+            animation-name: foto;
+            animation-duration: 2s;
+            animation-iteration-count:1 ;
+            animation-fill-mode: forwards;
+            animation-delay: 0s;
+            animation-direction:unset;
 
-#contenedor3{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-
-#contenedor4{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-#contenedor5{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-#contenedor6{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-#contenedor7{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-#contenedor8{
-    height: 90px;
-    width: 1000px;
-    background-color: white;
-}
-</style>
-
+        }
+        @keyframes foto{
+            from{
+                opacity: 0;
+            }
+            to{
+                opacity: 1;
+            }
+        }
+        
+    </style>
 </head>
-
 <body>
-<div id="contenedor1">
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-</div>
-
-<div id="contenedor2">
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-</div>
-
-<div id="contenedor3">
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-</div>
-
-<div id="contenedor4">
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-</div>
-
-<div id="contenedor5">
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-</div>
-
-<div id="contenedor6">
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-</div>
-
-<div id="contenedor7">
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-</div>
-
-<div id="contenedor8">
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-    <div id="cuadrito2"></div>
-    <div id="cuadrito1"></div>
-</div>
-
+    <img src="img/foto.jpg" alt="foto">
+    <h1>SAM ALTMAN </h1>
+    <p>
+        Sam Altman nació en 1985 y creció en San Luis, Misuri, donde desarrolló un interés temprano por la informática tras recibir su primera computadora a los ocho años. Estudió computación en la Universidad de Stanford, pero abandonó la carrera en 2005 para fundar Loopt, una de las primeras aplicaciones de redes sociales con geolocalización. Aunque Loopt no alcanzó un éxito comercial masivo, su venta en 2012 le proporcionó el capital y la reputación necesarios para integrarse plenamente en el ecosistema de inversión de Silicon Valley.
+        Su ascenso definitivo ocurrió en Y Combinator, la aceleradora de startups más influyente del mundo, donde pasó de ser un emprendedor financiado a convertirse en su presidente en 2014. Durante su gestión, expandió drásticamente la escala de la organización, supervisando el crecimiento de empresas que hoy son pilares tecnológicos como Stripe, Airbnb y Dropbox. Esta etapa consolidó su visión sobre el crecimiento exponencial y su capacidad para gestionar proyectos de escala global.
+        
+    </p>
+    <img src="img/foto 2.jpg" alt="foto2">
+    <p>
+        En 2015, motivado por la preocupación sobre los riesgos existenciales de la tecnología, cofundó OpenAI como una organización sin fines de lucro destinada a desarrollar una inteligencia artificial general segura. Bajo su dirección como CEO desde 2019, la empresa dio un giro estratégico hacia un modelo de beneficios limitados para atraer las inversiones masivas de Microsoft, lo que permitió el lanzamiento de ChatGPT y el inicio de la actual carrera armamentista de la IA. A pesar de una breve crisis de gobernanza en 2023, donde fue destituido y rápidamente reinstalado por presión de empleados e inversores, Altman se mantiene hoy como la figura central en la regulación y el despliegue de modelos de inteligencia artificial avanzados, complementando su perfil con inversiones masivas en energía de fusión nuclear y biotecnología.
+        
+    </p>
 </body>
-
 </html>
